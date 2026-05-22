@@ -1,57 +1,17 @@
 # card
+# Dev Card Component
 
-h2{
-    font-size: 30px;
-    color: #333;
-    margin: 10px 0;
-}
-h3{
-    font-size: 20px;
-    color: #666;
-    margin: 5px 0;
-}
-img{width:80px;
-    height:80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.card {
-    background: white;
-    padding: 24px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-align: center;
-    width: 280px;
-}
+A clean profile card built with HTML + CSS. No frameworks, just vibes.
 
-.buttons {
-    margin-top: 20px;
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
+## Preview
+![Bart Card](simpson.jpeg)
 
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-}
+## Stack
+- HTML5
+- CSS3 - Flexbox, Box Shadow, Border Radius
 
-.primary {
-    background: #3b82f6;
-    color: white;
-}
-
-button:not(.primary) {
-    background: #e5e7eb;
-    color: #374151;
-}
+## What this taught me
+- How to link external CSS files
+- Centering stuff without losing my mind
+- Making divs look like actual UI cards
+- Git commits are just save points for devs
