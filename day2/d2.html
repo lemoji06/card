@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 2 - Flexbox</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: sans-serif; 
+      background: #0f0f0f; 
+      color: white;
+      padding: 2rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1.5rem;
+      flex: 1 1 280px;
+      max-width: 350px;
+    }
+    .card h3 { margin-bottom: 0.5rem; color: #00d4ff; }
+  </style>
+</head>
+<body>
+  <div class="cards">
+    <div class="card">
+      <h3>HTML</h3>
+      <p>Semantic tags > div soup</p>
+    </div>
+    <div class="card">
+      <h3>CSS</h3>
+      <p>Flexbox for layout, variables later</p>
+    </div>
+    <div class="card">
+      <h3>Git</h3>
+      <p>Add, commit, push. Ship it.</p>
+    </div>
+  </div>
+</body>
+</html>
