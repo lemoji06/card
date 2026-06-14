@@ -34,11 +34,12 @@ button {
     max-width: 320px;
     min-width: 250px;
 }
-.card img{
-    height: 220px;
-    width:100%;
+.card img {
+    height: 280px;
+    width: 100%;
     object-fit: cover;
-    border-radius:8px;
+    object-position: top;
+    border-radius: 8px;
 }
 @media (max-width: 768px) {
   .card-row {
@@ -120,4 +121,11 @@ button:not(.primary) {
 
 .hero button:hover {
     background: #e5e7eb;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
